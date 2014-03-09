@@ -1,0 +1,1 @@
+Kodex is a PHP-boilerplate/framework for small websites. Kodex was built by Åsa Rosenberg (asa@dotnordic.se) as part of a course in web programming at BTH. For more info read http://dbwebb.se/kunskap (swedish). 

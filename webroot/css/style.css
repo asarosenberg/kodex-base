@@ -1,0 +1,130 @@
+/* -----HTML5 ELEMENTS */
+header, footer, nav, article, section, aside, figure, figcaption, output {
+	display:block; margin: 0; padding: 0;
+}
+div, main, aside, header, hgroup, article, section, ul, li, a, fieldset, input, textarea, img, figure, figcaption { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* -----BASICS */ 
+html, body {
+	margin: 0; padding: 0;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	
+}
+p {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Montserrat Alternates";
+}
+
+h1 span[class^="icon-"], h1 span[class*=" icon-"] {
+	display: block; float: left;
+	width: 40px; height: 40px;
+	margin: 2px 10px 0 0;
+	color: #ffd800;
+}
+/* -----WRAP */ 
+#wrapper {
+	margin: 0 auto;
+	width: 100%; max-width: 800px; 
+	padding: 10px;
+}
+
+/* -----FIGURES & BLOCKS */ 
+figure {
+	border: 5px solid #ffffff;
+	line-height: 0;
+}
+figure.alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+figure img {
+	width: 100%; height: auto;
+}
+figcaption {
+	width: 100%; 
+	font-size: 14px; line-height: 20px;
+	background: #eeeeee;
+	padding: 5px;
+}
+blockquote {
+	float: left;
+	background: #eeeeee;
+	margin: 0 0 20px 40px;
+	padding: 10px 15px;
+}
+/* -----HEADER */ 
+#header {
+	position: relative; overflow: hidden;
+	margin: 20px 0 40px 0;
+	font-family: "Montserrat Alternates";
+}
+.sitelogo {
+	width: 200px; height: auto; float: left;
+}
+.p404 .sitelogo {
+
+}
+.sitetitle {
+	float: left; margin: 0 0 0 20px;
+	font-size: 20px;
+}
+.siteslogan {
+	float: left; margin: 0 0 0 20px;
+}
+
+/* -----NAV */ 
+nav {
+	position: relative; overflow: hidden; clear: both;
+	width: 100%; margin: 50px 0 20px 0;
+	background: #eeeeee;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+nav a {
+	display: block; float: left; 
+	padding: 5px 15px;
+	
+	text-decoration: none;
+	color: #000000;
+}
+nav a.active {
+	background: #ffd800;
+}
+nav a:active {
+	color: #000000;
+}
+
+/* -----MAIN */ 
+#main {
+	min-height: 20em;
+	font-family: "Anaheim", arial, sans-serif;
+	font-size: 18px;
+}
+
+/* -----FOOTER */ 
+#footer {
+	position: relative; overflow: visible;
+	margin-top: 40px;
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+	font-family: "Anaheim", arial, sans-serif;
+	font-size: 16px;
+}
+.authorinfo {
+	display: block; padding-right: 180px;
+}
+#footer ul {
+	margin: 20px 0 0 15px; padding: 0;
+}
+.footerface {
+	position: absolute; top: 0; right: 0; 
+	width: 150px; 
+}
